@@ -13,11 +13,13 @@ public class GazeRaycast : MonoBehaviour
     private GameObject teleportReticleInstance;
     private Transform teleportHere;
 
-    //[SerializeField] Image reticleImage;
+    [SerializeField] Image reticleImage;
     [SerializeField] Image gazeTimerImage;
     [SerializeField] ActionBasedController controller;
 
     [SerializeField] float timerDuration = 2.5f;
+    public WatchUI myWatch;
+
     private bool _teleportActive;
     private bool _isRadialFilled;
     private float _timer;
@@ -45,18 +47,25 @@ public class GazeRaycast : MonoBehaviour
             if (hit.transform.CompareTag("Teleportable"))
             {
                 UpdateTeleportReticle(hit);
+                Teleport(hit);
             }
+            //else if (hit.transform.CompareTag("Watch") && !myWatch._inTimeBubble)
+            //{
+                //Debug.Log("looking at watch");
+                //myWatch.timeVariable += 0.001f;
+            //}
             else
             {
                 onGazeExit();
             }
-            Teleport(hit);
         }
 
         if (_teleportActive)
         {
             LoadGazeTimer();
         }
+
+        //Debug.Log(myWatch.timeVariable);
     }
 
     void UpdateTeleportReticle(RaycastHit hit)
@@ -66,7 +75,7 @@ public class GazeRaycast : MonoBehaviour
         teleportReticleInstance.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
 
         //hover on teleportable area
-        //reticleImage.color = Color.green;
+        reticleImage.color = Color.green;
         
     }
 
@@ -84,7 +93,7 @@ public class GazeRaycast : MonoBehaviour
         _isRadialFilled = false;
         _teleportActive = false;
         ResetProgress();
-        //reticleImage.color = Color.white;
+        reticleImage.color = Color.white;
     }
 
     public void StartProgress()
@@ -101,7 +110,7 @@ public class GazeRaycast : MonoBehaviour
             gazeTimerImage.fillAmount = _timer / timerDuration;
 
             //if timer exceeds duration, complete progress and reset
-            if (_timer >= timerDuration + 0.4f)
+            if (_timer >= timerDuration + 0.05f)
             {
                 ResetProgress();
                 _isRadialFilled = true;

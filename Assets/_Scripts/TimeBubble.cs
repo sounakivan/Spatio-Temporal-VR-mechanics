@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class TimeBubble : MonoBehaviour
 {
-    public WatchUI myWatch;
-    [SerializeField] float timeSpeed = 0.5f;
+    public WatchUI timeKeeper;
+    //[SerializeField] float timeSpeed = 0.001f;
 
-    [SerializeField] GameObject animationControl;
+    //[SerializeField] GameObject animationControl;
     
     private void Start()
     {
@@ -18,12 +18,22 @@ public class TimeBubble : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            myWatch.timeVariable = timeSpeed;
+            timeKeeper._inTimeBubble = true;
+                      
+            //animationControl.GetComponent<Animator>().speed = timeSpeed;
 
-            animationControl.GetComponent<Animator>().speed = timeSpeed;
-
-            //print(myWatch.timeVariable);
+            print("player entered bubble");
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            timeKeeper._inTimeBubble = false;
+            //animationControl.GetComponent<Animator>().speed = timeSpeed;
+
+            print("player exited bubble");
+        }
+    }
 }

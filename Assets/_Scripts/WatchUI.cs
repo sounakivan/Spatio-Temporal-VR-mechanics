@@ -11,6 +11,10 @@ public class WatchUI : MonoBehaviour
 
     public float timeVariable = 1f;
     private float startTime;
+    public float trainArrivalTime = 180f;
+    public float timeUntilArrival;
+
+    public bool _inTimeBubble = false;
 
     void Start()
     {
@@ -21,17 +25,35 @@ public class WatchUI : MonoBehaviour
     private void Update()
     {
         float t = Time.time - startTime;
-        int minutes = (int) t / 60;
-        float seconds = (t * timeVariable) % 60;
-
-        float secondsDegree = -(seconds / 60f) * 360f;
+        float seconds = t % 60;
+        float rateOfSeconds = seconds * timeVariable;
+        float secondsDegree = -(rateOfSeconds / 60f) * 360f;
 
         secondHandTransform.localRotation = Quaternion.Euler(new Vector3(0, 0, secondsDegree));
         minuteHandTransform.localRotation = Quaternion.Euler(new Vector3(0, 0, (secondsDegree) / 60f));
 
-        string minuteString = minutes.ToString();
-        string secondString = seconds.ToString("f0");
+        float minutes = rateOfSeconds / 60;
+        string minuteString = ((int) minutes).ToString("f0");
+        string secondString = (rateOfSeconds % 60).ToString("f0");
 
         timeText.text = minuteString + ":" + secondString;
+
+        //time speeds up and slows down accordingly
+        if (!_inTimeBubble)
+        {
+            timeVariable += 0.001f;
+        }
+        else if (_inTimeBubble && timeVariable > 1)
+        {
+            timeVariable -= 0.001f;
+        }
+        else
+        {
+            timeVariable = 1f;
+        }
+
+        //Debug.Log(rateOfSeconds);
+
+        timeUntilArrival = trainArrivalTime - rateOfSeconds;
     }
 }
