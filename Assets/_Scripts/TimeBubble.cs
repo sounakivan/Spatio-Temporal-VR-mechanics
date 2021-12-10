@@ -7,11 +7,11 @@ public class TimeBubble : MonoBehaviour
     public WatchUI myWatch;
     [SerializeField] float timeSpeed = 0.5f;
 
-    [SerializeField] Animator m_anim;
-
+    [SerializeField] GameObject animationControl;
+    
     private void Start()
     {
-        m_anim = gameObject.GetComponent<Animator>();
+        //m_anim = gameObject.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -20,9 +20,9 @@ public class TimeBubble : MonoBehaviour
         {
             myWatch.timeVariable = timeSpeed;
 
-            m_anim.speed = timeSpeed;
+            animationControl.GetComponent<Animator>().speed = timeSpeed;
 
-            print(myWatch.timeVariable);
+            //print(myWatch.timeVariable);
         }
     }
 

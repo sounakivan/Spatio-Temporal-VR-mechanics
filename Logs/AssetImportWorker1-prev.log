@@ -1,0 +1,403 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.318; Version 2009; 64bit' Language: 'en' Physical Memory: 16204 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/nekoi/Documents/Projects/XR Studio/Time Travelling Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55103
+Successfully changed project path to: C:/Users/nekoi/Documents/Projects/XR Studio/Time Travelling Game
+C:/Users/nekoi/Documents/Projects/XR Studio/Time Travelling Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.57 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nekoi/Documents/Projects/XR Studio/Time Travelling Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001469 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.13 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1165ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.95 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5103ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (4873ms)
+			LoadAssemblies (2965ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (890ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (771ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (547ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.3 MB.
+System memory in use after: 143.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3633.
+Total: 3.723100 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.198800 ms MarkObjects: 3.107800 ms  DeleteObjects: 0.085900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo
+  artifactKey: Guid(cd835e486f9219346961ad6f735079f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo using Guid(cd835e486f9219346961ad6f735079f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94490b20ca60e08a8b73e22134662550') in 0.010394 seconds 
+  Import took 0.015212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro ASSETS.unity
+  artifactKey: Guid(e4f500fae4c0f134cb42b29838b3e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro ASSETS.unity using Guid(e4f500fae4c0f134cb42b29838b3e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed148f7d50e0432bc6cec604972a94a1') in 0.016025 seconds 
+  Import took 0.020899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO.unity
+  artifactKey: Guid(b8f21780c2152b1458ecd14998409628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO.unity using Guid(b8f21780c2152b1458ecd14998409628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632e9a151239fb45e256a7a6460384ee') in 0.007201 seconds 
+  Import took 0.012038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/URP_Supported
+  artifactKey: Guid(2e7153273190a674892eaedb05a323a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/URP_Supported using Guid(2e7153273190a674892eaedb05a323a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c789214c3046dbf9cbf2f7827e4c81bb') in 0.006944 seconds 
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/EmaceArt
+  artifactKey: Guid(a72ee8b892c0d734095d03eb948d13e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt using Guid(a72ee8b892c0d734095d03eb948d13e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811e5b5e1a8fa42f4be1f0c22446ff13') in 0.006977 seconds 
+  Import took 0.012272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/ForwardRenderer.asset
+  artifactKey: Guid(3ab0bb7976fd9fe46baccfc195eafd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ForwardRenderer.asset using Guid(3ab0bb7976fd9fe46baccfc195eafd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3381778692ab8b77da7b8c2586140b7c') in 0.030072 seconds 
+  Import took 0.036639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro
+  artifactKey: Guid(4cd26164d3d219a488c1e18cb18e24c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro using Guid(4cd26164d3d219a488c1e18cb18e24c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf414d747c5a81b846f91d72589744a') in 0.008177 seconds 
+  Import took 0.013748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO_URP.unity
+  artifactKey: Guid(96fff0fe41d7d324cb18add390346e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO_URP.unity using Guid(96fff0fe41d7d324cb18add390346e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23af196d1ebe55f0e19fbe3bd7ecb021') in 0.007783 seconds 
+  Import took 0.012849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1295.898933 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs
+  artifactKey: Guid(ab5695544fd12164bb518cf9d455cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs using Guid(ab5695544fd12164bb518cf9d455cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096eb4b440e22adfb9b7fabca38a58b5') in 0.009105 seconds 
+  Import took 0.016028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.470099 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Wehicule
+  artifactKey: Guid(c4798ad70cc715b45a293480a2751a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Wehicule using Guid(c4798ad70cc715b45a293480a2751a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c9f690811abdfc3037a18daddd5c26') in 0.008711 seconds 
+  Import took 0.013560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Wehicule/PAEA01_Props_Wehicule_Trolley_01a_PRE.prefab
+  artifactKey: Guid(f1d526107b9e96b44b213bd492b457c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Wehicule/PAEA01_Props_Wehicule_Trolley_01a_PRE.prefab using Guid(f1d526107b9e96b44b213bd492b457c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5866f0e1b66f8f5eeab2ab9fc549896') in 0.457558 seconds 
+  Import took 0.463677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Wehicule/PAEA01_Props_Wehicule_Trolley_01b_PRE.prefab
+  artifactKey: Guid(2be46ad4f75f65148abd41718809920f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Wehicule/PAEA01_Props_Wehicule_Trolley_01b_PRE.prefab using Guid(2be46ad4f75f65148abd41718809920f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520e7807edfb546f6934b86ee0e3d5f9') in 0.027231 seconds 
+  Import took 0.033268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Wehicule/PAEA01_Props_Wehicule_Trolley_Panel_01a_PRE.prefab
+  artifactKey: Guid(4fd29acf26061e6428dc7ce9600e57ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Wehicule/PAEA01_Props_Wehicule_Trolley_Panel_01a_PRE.prefab using Guid(4fd29acf26061e6428dc7ce9600e57ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb7ff03bf9263cbe8aec1ab00b62f4b') in 0.029473 seconds 
+  Import took 0.035452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.383295 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/TechRoom
+  artifactKey: Guid(c8f56c77e1aaabb4cbc562563c2408eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/TechRoom using Guid(c8f56c77e1aaabb4cbc562563c2408eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f64d0a90c2e246e5a058956cf3c9c1') in 0.007093 seconds 
+  Import took 0.012071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/TechRoom/PAEA01_TechRoom_RoofDecor_Lamp_01.fbx
+  artifactKey: Guid(ead257839023bb746afcea43d39b4e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/TechRoom/PAEA01_TechRoom_RoofDecor_Lamp_01.fbx using Guid(ead257839023bb746afcea43d39b4e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b408d6ca5db97a1c9b9db0aca6707423') in 0.056191 seconds 
+  Import took 0.060563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/TechRoom/PAEA01_WallDecor_Label_Trolley_01a_PRE.prefab
+  artifactKey: Guid(0d073d1de20906c47a98dd2f3c09c9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/TechRoom/PAEA01_WallDecor_Label_Trolley_01a_PRE.prefab using Guid(0d073d1de20906c47a98dd2f3c09c9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc17f5abac9aa5e05b752675982f5ba9') in 0.026774 seconds 
+  Import took 0.032465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/TechRoom/PAEA01_TechRoom_RoofDecor_Lamp_01_PRE.prefab
+  artifactKey: Guid(370f9fe332db88749b9afc678f4a1b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/TechRoom/PAEA01_TechRoom_RoofDecor_Lamp_01_PRE.prefab using Guid(370f9fe332db88749b9afc678f4a1b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a86501c75628948dfbe5ac49493eede') in 0.018426 seconds 
+  Import took 0.024022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.463944 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence
+  artifactKey: Guid(68856dca1a8e1b440beb7245c83875ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence using Guid(68856dca1a8e1b440beb7245c83875ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912b1d7108992e47297b6312f897e940') in 0.009788 seconds 
+  Import took 0.015290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.358061 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence/pole
+  artifactKey: Guid(fd6e0d81118235045af4cfa15d4fedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence/pole using Guid(fd6e0d81118235045af4cfa15d4fedae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee57b74ac3963a792804935b0d7a1c38') in 0.007414 seconds 
+  Import took 0.013229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence/pole/PAEA01_Fence_pole_01a_PRE2.prefab
+  artifactKey: Guid(6461943d3ef8d8e46a0d2642d2b2fbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence/pole/PAEA01_Fence_pole_01a_PRE2.prefab using Guid(6461943d3ef8d8e46a0d2642d2b2fbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6cc60e549549f15f12e007e44bf357') in 0.018339 seconds 
+  Import took 0.024091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence/pole/PAEA01_Fence_pole_01c_PRE2.prefab
+  artifactKey: Guid(833ff3352193201419fee218bf958643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence/pole/PAEA01_Fence_pole_01c_PRE2.prefab using Guid(833ff3352193201419fee218bf958643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9a68ff817b7669edaf0924be749ad0') in 0.017092 seconds 
+  Import took 0.023043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence/pole/PAEA01_Fence_pole_01b_PRE2.prefab
+  artifactKey: Guid(571e2eb26cf050641bfe1fd900629241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Prefabs/Fence/pole/PAEA01_Fence_pole_01b_PRE2.prefab using Guid(571e2eb26cf050641bfe1fd900629241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0323ccce10004f4cd3d7da069a813b01') in 0.016592 seconds 
+  Import took 0.022429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.186026 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Info
+  artifactKey: Guid(59d1b89abd24630469d20c30ec4db74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Info using Guid(59d1b89abd24630469d20c30ec4db74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa6253c27f9d3e6f1a5cd4e9f596bf7') in 0.009201 seconds 
+  Import took 0.014328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.415739 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Info/checkout my asset.pdf
+  artifactKey: Guid(d848f36354e941447b7b7b0aa3a16867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Info/checkout my asset.pdf using Guid(d848f36354e941447b7b7b0aa3a16867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef803933a872a003cb0c10a7f484f88') in 0.013053 seconds 
+  Import took 0.018557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.092316 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Info/Changelog.txt
+  artifactKey: Guid(7b06fae95a6c7c14891ab426893144e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Info/Changelog.txt using Guid(7b06fae95a6c7c14891ab426893144e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eaed07c87f3cb57346b57ebbbd6277') in 0.061460 seconds 
+  Import took 0.065922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.159304 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO
+  artifactKey: Guid(c5d9248d2c2f1924187052d5901fd5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO using Guid(c5d9248d2c2f1924187052d5901fd5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7bcf7c393fb77b81bcbea30571a409') in 0.008416 seconds 
+  Import took 0.013982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/LightingData.asset
+  artifactKey: Guid(b7ea2c1bec703ee4ea17cfafa888584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/LightingData.asset using Guid(b7ea2c1bec703ee4ea17cfafa888584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec53c18f7dcad4892b3dcf077eb78484') in 0.007807 seconds 
+  Import took 0.012755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-1_comp_dir.png
+  artifactKey: Guid(06f6112e5abf9f94da25cbbac9109356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-1_comp_dir.png using Guid(06f6112e5abf9f94da25cbbac9109356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea7a41ea46984ca81b0ddeaf64299ce') in 0.019104 seconds 
+  Import took 0.024086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/ReflectionProbe-0.exr
+  artifactKey: Guid(0336f3e66268601439eaeb6af8d9a8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/ReflectionProbe-0.exr using Guid(0336f3e66268601439eaeb6af8d9a8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daec9656cd477a522efa93dc1512dced') in 0.033649 seconds 
+  Import took 0.038955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(364b98782fcd4d14588b787203927204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-0_comp_shadowmask.png using Guid(364b98782fcd4d14588b787203927204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebde148783c9b2c40626a3b88382f684') in 0.013695 seconds 
+  Import took 0.019029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-0_comp_dir.png
+  artifactKey: Guid(f3a990b4a592c4543afc2cd4239e8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-0_comp_dir.png using Guid(f3a990b4a592c4543afc2cd4239e8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1b613002b1e478f0ec3bb5baf98aa4') in 0.013626 seconds 
+  Import took 0.018953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-0_comp_light.exr
+  artifactKey: Guid(f3e68d33a271b4c46b20de49f461c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-0_comp_light.exr using Guid(f3e68d33a271b4c46b20de49f461c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae61a2a35fc25333ffa84f468dcf0305') in 0.017392 seconds 
+  Import took 0.023735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-1_comp_light.exr
+  artifactKey: Guid(c391b44cd1ca81f49919eed0b79e5894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-1_comp_light.exr using Guid(c391b44cd1ca81f49919eed0b79e5894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb11f581b8ff32ef1ce3373318cb7aa') in 0.013039 seconds 
+  Import took 0.018210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(9f2a8d07646de3447b056c2043c62052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/PixelArt - EA01 Metro/Demo/PixelArt - EA01 Metro DEMO/Lightmap-1_comp_shadowmask.png using Guid(9f2a8d07646de3447b056c2043c62052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a44c58102f6c440de2458921581c54e') in 0.012960 seconds 
+  Import took 0.018802 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
