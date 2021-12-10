@@ -15,11 +15,11 @@ C:/Users/nekoi/Documents/Projects/XR Studio/Time Travelling Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50945
+62606
 Successfully changed project path to: C:/Users/nekoi/Documents/Projects/XR Studio/Time Travelling Game
 C:/Users/nekoi/Documents/Projects/XR Studio/Time Travelling Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 104.41 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 127.80 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001362 seconds.
+Registered in 0.001692 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.44 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 116.09 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.492 seconds
+- Completed reload, in  1.464 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1493ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (1464ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (514ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (243ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012505 seconds.
+Registered in 0.012785 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 100.81 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 108.34 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.777 seconds
+- Completed reload, in  1.652 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2778ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (1653ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (2552ms)
-			LoadAssemblies (1440ms)
+		EndReloadAssembly (1408ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
+			SetupTypeCache (452ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (531ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (598ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (294ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (342ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.55 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.4 MB.
-System memory in use after: 155.6 MB.
+Unloading 3663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 163.6 MB.
 
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3866.
-Total: 6.181800 ms (FindLiveObjects: 0.452100 ms CreateObjectMapping: 0.270000 ms MarkObjects: 5.326600 ms  DeleteObjects: 0.131400 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4100.
+Total: 4.302900 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.243100 ms MarkObjects: 3.575000 ms  DeleteObjects: 0.111600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,668 +131,184 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_InterBorder01.png
-  artifactKey: Guid(319a23af61abe074eb89d44841dca2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_InterBorder01.png using Guid(319a23af61abe074eb89d44841dca2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77650d33e7e5232a104480e6842e4fd8') in 0.134325 seconds 
-  Import took 0.142690 seconds .
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da23bb4005e61638a6b440ebe73d397d') in 0.057676 seconds 
+  Import took 0.064132 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel011Em.png
-  artifactKey: Guid(f2f5ae64527f2ee48bf6a0cb2033b5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel011Em.png using Guid(f2f5ae64527f2ee48bf6a0cb2033b5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9221c15d39c6a17c1637075ce062e999') in 0.017212 seconds 
-  Import took 0.023472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall01.png
-  artifactKey: Guid(67fc686bea1d26b4e9a1de1529ef5fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall01.png using Guid(67fc686bea1d26b4e9a1de1529ef5fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637fe83e20d097da40e2a7949c22b3c2') in 0.015469 seconds 
-  Import took 0.021085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorCeil02.png
-  artifactKey: Guid(70343d7643c68734f950b9cff463b9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorCeil02.png using Guid(70343d7643c68734f950b9cff463b9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff0705eae2fc55cfd8abfd850573f91') in 0.013263 seconds 
-  Import took 0.019153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel06Em.png
-  artifactKey: Guid(a36dc1c2bbefc074eb7949b4e8c0f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel06Em.png using Guid(a36dc1c2bbefc074eb7949b4e8c0f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d01abfa68b6d32d80eadbc2c7646b3') in 0.013534 seconds 
-  Import took 0.019024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall03nm.png
-  artifactKey: Guid(7da6a24a995418441a8c3cbceecee9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall03nm.png using Guid(7da6a24a995418441a8c3cbceecee9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2231d69d934801a5a6967b2df9c0cd') in 0.036813 seconds 
-  Import took 0.041892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench02a_nm.png
-  artifactKey: Guid(af09a58f909d2d844bdb30b952fc19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench02a_nm.png using Guid(af09a58f909d2d844bdb30b952fc19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da93bb30a5d1d6b2a7700b3390088cb8') in 0.017790 seconds 
-  Import took 0.022813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel05.png
-  artifactKey: Guid(4e15c17ec85f9154b9ca233049ef77cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel05.png using Guid(4e15c17ec85f9154b9ca233049ef77cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6152072d131d88fbed54e652bb130b') in 0.014596 seconds 
-  Import took 0.019989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel04Em.png
-  artifactKey: Guid(5adb1b46fbe56c049b24ea58b1499893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel04Em.png using Guid(5adb1b46fbe56c049b24ea58b1499893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94d9b8b2d10803b58ca820b0f848110') in 0.012926 seconds 
-  Import took 0.018359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel012.png
-  artifactKey: Guid(9588a17785bd7d94c831f8de18105d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel012.png using Guid(9588a17785bd7d94c831f8de18105d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646389fde87ae008caca0480763f6ea4') in 0.014680 seconds 
-  Import took 0.020535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel09.png
-  artifactKey: Guid(0aed6a5042780484eb7081426e4ce63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel09.png using Guid(0aed6a5042780484eb7081426e4ce63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1099c7860e09c9cf4b41519b01683a2b') in 0.013262 seconds 
-  Import took 0.018573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStair.png
-  artifactKey: Guid(3ae01a02c55329641b9a3a0f5e7b8cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStair.png using Guid(3ae01a02c55329641b9a3a0f5e7b8cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d88fdfb2700beda3ec474c95abd62ca') in 0.013229 seconds 
-  Import took 0.018595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench01b.png
-  artifactKey: Guid(a104e17b56b3d7a4e94bb190db95d6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench01b.png using Guid(a104e17b56b3d7a4e94bb190db95d6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f7028c40db858aa3cfd39580413894') in 0.013498 seconds 
-  Import took 0.019416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel04.png
-  artifactKey: Guid(7b71ef6c544b0b54b951c0988968739c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel04.png using Guid(7b71ef6c544b0b54b951c0988968739c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877b468f55279245967ffd301e2af6d2') in 0.012714 seconds 
-  Import took 0.017723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorFloor_nm.png
-  artifactKey: Guid(7f52a827dcecf644fbe2473835b3283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorFloor_nm.png using Guid(7f52a827dcecf644fbe2473835b3283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176aa16742579e12086674b9113c9399') in 0.013829 seconds 
-  Import took 0.018788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench01a.png
-  artifactKey: Guid(eb2f66083ea73de4fb59b192caee331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench01a.png using Guid(eb2f66083ea73de4fb59b192caee331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e013277c4769a4e207d74f443bd299') in 0.014244 seconds 
-  Import took 0.019269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel09Em.png
-  artifactKey: Guid(b8356b27f73dd444888a2542b42ff5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel09Em.png using Guid(b8356b27f73dd444888a2542b42ff5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46c2b9476017b309462826abd3b3d8a') in 0.013187 seconds 
-  Import took 0.018473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall03.png
-  artifactKey: Guid(4f3eace3e0bb90446a97fa748d0f7411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall03.png using Guid(4f3eace3e0bb90446a97fa748d0f7411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a3a71f2777d8ff253d78a824d03b6c') in 0.012153 seconds 
-  Import took 0.017568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall02.png
-  artifactKey: Guid(e50c641656ec1544eabac429a858c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall02.png using Guid(e50c641656ec1544eabac429a858c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325654b7746057f1958b0adcb0b53595') in 0.014117 seconds 
-  Import took 0.019583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorWall.png
-  artifactKey: Guid(1ac1aa43f72e0804397dde10b94b8539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorWall.png using Guid(1ac1aa43f72e0804397dde10b94b8539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b636f286efda196c45231cb62ce1f3') in 0.012565 seconds 
-  Import took 0.017693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel03.png
-  artifactKey: Guid(97d970f2232749641aece13825c8e05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel03.png using Guid(97d970f2232749641aece13825c8e05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b2273932f3a7b068a60fe6e7bed322') in 0.012846 seconds 
-  Import took 0.018462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel06.png
-  artifactKey: Guid(470a8230d0cb24f4abdac8a471971538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel06.png using Guid(470a8230d0cb24f4abdac8a471971538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13475cc10f7b7aebc2ad42ce6d72940') in 0.013286 seconds 
-  Import took 0.018620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel013Em.png
-  artifactKey: Guid(6b8006cec6ce5014ca2651f5b92a0927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel013Em.png using Guid(6b8006cec6ce5014ca2651f5b92a0927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755d7900ee52d9b89aa1c16c9211b37c') in 0.013703 seconds 
-  Import took 0.019159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench03b.png
-  artifactKey: Guid(31709b8d005c17242b91fc758151af05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench03b.png using Guid(31709b8d005c17242b91fc758151af05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e40127c219233fcfd3fdc9a199e7fc') in 0.013225 seconds 
-  Import took 0.018934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel014.png
-  artifactKey: Guid(7d9e5a83d817c984ebd7e15d29f2c5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel014.png using Guid(7d9e5a83d817c984ebd7e15d29f2c5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e925b7824b24a80fbd079c97dcd6a6') in 0.013461 seconds 
-  Import took 0.019192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel02.png
-  artifactKey: Guid(34c0bc6d0c3945e418f4c89a322040b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel02.png using Guid(34c0bc6d0c3945e418f4c89a322040b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14acadc9e0b48ad2ad3d585552111c82') in 0.012886 seconds 
-  Import took 0.018402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel010Em.png
-  artifactKey: Guid(db46cbd001289ba418ce6e65eb37a98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel010Em.png using Guid(db46cbd001289ba418ce6e65eb37a98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5f73d68d8f9af7ca35980b60ed608f') in 0.012525 seconds 
-  Import took 0.017818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench01b_nm.png
-  artifactKey: Guid(5a6f9688600c3814dad6aad8b78341ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench01b_nm.png using Guid(5a6f9688600c3814dad6aad8b78341ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083907617a081c6d67a3b0c9ffc72037') in 0.014951 seconds 
-  Import took 0.020222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench04.png
-  artifactKey: Guid(9790358cb43ec8940b55f4042a8476e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench04.png using Guid(9790358cb43ec8940b55f4042a8476e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66db25fc7ff054a7c43b1b3bf7c5a7f') in 0.012014 seconds 
-  Import took 0.017354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorLight.png
-  artifactKey: Guid(cd9e40581655e0f4189e3de0d4c531df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorLight.png using Guid(cd9e40581655e0f4189e3de0d4c531df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb3626531749deb143e06b7858323d4') in 0.011207 seconds 
-  Import took 0.016383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel03Em.png
-  artifactKey: Guid(c6e5820eb0490d54e8266580df785b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel03Em.png using Guid(c6e5820eb0490d54e8266580df785b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ea81308e5f916173c383089283982e') in 0.013442 seconds 
-  Import took 0.018602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel08Em.png
-  artifactKey: Guid(3502f08e2db41ec49a19c9b60e754e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel08Em.png using Guid(3502f08e2db41ec49a19c9b60e754e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a09340a4f0cc2e086179ab2c8bdf7fc') in 0.015977 seconds 
-  Import took 0.021806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel08.png
-  artifactKey: Guid(b573d5034dd1db145a3bd63cc1722f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel08.png using Guid(b573d5034dd1db145a3bd63cc1722f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642b4edafc3102c791a159c762af0e12') in 0.017337 seconds 
-  Import took 0.024063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall01nm.png
-  artifactKey: Guid(c24ae5a4399efb54c980d220fe0a28e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall01nm.png using Guid(c24ae5a4399efb54c980d220fe0a28e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdcff53ade29d119e2350c3f4c15ce2') in 0.017492 seconds 
-  Import took 0.024290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorCeil01.png
-  artifactKey: Guid(7e69f190438d3d441bd41f4e3cf4b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorCeil01.png using Guid(7e69f190438d3d441bd41f4e3cf4b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac2fae1aa3fd8d3716fd4851f48cc1f') in 0.014969 seconds 
-  Import took 0.022276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel01Em.png
-  artifactKey: Guid(d15e847e362959149b730f25aea34f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel01Em.png using Guid(d15e847e362959149b730f25aea34f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd955d0c3e0b69141db759739d816f6') in 0.015744 seconds 
-  Import took 0.022738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel014Em.png
-  artifactKey: Guid(44256cecedcc5cd46ac83e72b1d14670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel014Em.png using Guid(44256cecedcc5cd46ac83e72b1d14670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de23a0ccc731b1d6aaf9449acc461150') in 0.015669 seconds 
-  Import took 0.022045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorLight_Em.png
-  artifactKey: Guid(43e593d05eee27644b13f82891ce057c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorLight_Em.png using Guid(43e593d05eee27644b13f82891ce057c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4f5cb29f2434a17a7870588c22889d') in 0.012414 seconds 
-  Import took 0.019658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel07.png
-  artifactKey: Guid(cc7cad799e3da834aa210f9a3550fdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel07.png using Guid(cc7cad799e3da834aa210f9a3550fdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385dd5d10d434b082895159d99e611eb') in 0.014051 seconds 
-  Import took 0.020650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel013.png
-  artifactKey: Guid(49ca8e325422af442aaec6d92b146793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel013.png using Guid(49ca8e325422af442aaec6d92b146793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc820bafa64629f4f9c56eb4948b12ac') in 0.015278 seconds 
-  Import took 0.020805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel05Em.png
-  artifactKey: Guid(030ef95770631894188bc457413bb1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel05Em.png using Guid(030ef95770631894188bc457413bb1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42609ac340d835019da825edbe0e2eb') in 0.013860 seconds 
-  Import took 0.019592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench01a_nm.png
-  artifactKey: Guid(40873f0273cf7994abdaa2bd4397829f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench01a_nm.png using Guid(40873f0273cf7994abdaa2bd4397829f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e651bb54cbd1b0f7692969f4e8dc304') in 0.016240 seconds 
-  Import took 0.022115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel011.png
-  artifactKey: Guid(d7ac066894d126e47bdec0b5d4873de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel011.png using Guid(d7ac066894d126e47bdec0b5d4873de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d871a9f8c2ea9f64d1c74f06d571170') in 0.014638 seconds 
-  Import took 0.020525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench02a.png
-  artifactKey: Guid(b34679a88872ab04ba15ad0b91adfc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench02a.png using Guid(b34679a88872ab04ba15ad0b91adfc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5160ed5d5398d0f607331b0fa4901a78') in 0.013290 seconds 
-  Import took 0.019139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel02Em.png
-  artifactKey: Guid(65652a29c8004774499f8659ebc927ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel02Em.png using Guid(65652a29c8004774499f8659ebc927ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1917285cc4e0dc2398e7a111996433aa') in 0.015560 seconds 
-  Import took 0.022292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall02nm.png
-  artifactKey: Guid(99ff6bc33c672ca4090326f4eb1cc703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_aStairWall02nm.png using Guid(99ff6bc33c672ca4090326f4eb1cc703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c46c823e449bcdefac7fe5f43d8fa0') in 0.015665 seconds 
-  Import took 0.022458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel012Em.png
-  artifactKey: Guid(dda4e5f43f8b430498008513113b72f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel012Em.png using Guid(dda4e5f43f8b430498008513113b72f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb0f82d07e4937830a62e7218f36ad2') in 0.014290 seconds 
-  Import took 0.020144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorCeil03.png
-  artifactKey: Guid(4623c5528778c094e9cdca31acd38690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorCeil03.png using Guid(4623c5528778c094e9cdca31acd38690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d31d1c21f3bdc5d3be3dfa605ab69e') in 0.013638 seconds 
-  Import took 0.019385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Bench03a.png
-  artifactKey: Guid(a635d100b84e68d44825af83458f9f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Bench03a.png using Guid(a635d100b84e68d44825af83458f9f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1050adb15919ec69db27a67ad9799a7d') in 0.011770 seconds 
-  Import took 0.016952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel07Em.png
-  artifactKey: Guid(7d0c7598e01b46045957be45f0a7d4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel07Em.png using Guid(7d0c7598e01b46045957be45f0a7d4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b53c80eea7fd9ca225deeb675fb9df1') in 0.014053 seconds 
-  Import took 0.019713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorFloor.png
-  artifactKey: Guid(b6fa68630a6aa0542b6c6aa889f10904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Subway01_CorridorFloor.png using Guid(b6fa68630a6aa0542b6c6aa889f10904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e3c8a5cc3eb6d8ac2c0d4a2f4b301a') in 0.014140 seconds 
-  Import took 0.020031 seconds .
+  Time since last request: 0.000204 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions
+  artifactKey: Guid(77790f7aa8eb80441a5f8173ca1597e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions using Guid(77790f7aa8eb80441a5f8173ca1597e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0618b4d5b2dba8f2c2081cdeeab3058d') in 0.009711 seconds 
+  Import took 0.016472 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000176 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel010.png
-  artifactKey: Guid(80f320d47ba37b24e9f9fdfa50c188ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel010.png using Guid(80f320d47ba37b24e9f9fdfa50c188ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d4b351c31ea576d877c79064ccef93') in 0.014904 seconds 
-  Import took 0.020656 seconds .
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da3fe9c90d3328ccbda1acb67679066') in 0.016400 seconds 
+  Import took 0.023537 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/IGBlocks/SubwayStationsPack/Textures/Panel01.png
-  artifactKey: Guid(88a1894070768e24f9710ab11ffb5a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IGBlocks/SubwayStationsPack/Textures/Panel01.png using Guid(88a1894070768e24f9710ab11ffb5a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4997571a7cd3e5910295774689eb5395') in 0.016872 seconds 
-  Import took 0.023176 seconds .
+  Time since last request: 0.000217 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16670b800db6788a6c2019e24f3b4ddb') in 0.020911 seconds 
+  Import took 0.030010 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 813.570599 seconds.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01671cd33da9a295a30a92be702ca27e') in 0.021823 seconds 
+  Import took 0.029887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ccefdc474ceb738a43be42fa0dd200') in 0.013842 seconds 
+  Import took 0.022496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.0-pre.5/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95707fcd6162d51b579bd0bf92def4f') in 0.014690 seconds 
+  Import took 0.023556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 835.859873 seconds.
+  path: Assets/_Prefabs/GazePointer.prefab
+  artifactKey: Guid(d4f87fac2c1d21e4d9c5754437ca09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/GazePointer.prefab using Guid(d4f87fac2c1d21e4d9c5754437ca09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076e8e4fef8215051be365503d7da1d8') in 0.026463 seconds 
+  Import took 0.033570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.856130 seconds.
+  path: Assets/_Scenes
+  artifactKey: Guid(56bc8b338bea7264f880a569b2816004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes using Guid(56bc8b338bea7264f880a569b2816004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcb4433d22df034654960e4dc20e95d') in 0.008086 seconds 
+  Import took 0.015621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.313642 seconds.
+  path: Assets/_Scenes/Railway Station.unity
+  artifactKey: Guid(4cd698a31bee4344c87e04af57354ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Railway Station.unity using Guid(4cd698a31bee4344c87e04af57354ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc3decc78764c858a852b730d7cadee') in 0.008674 seconds 
+  Import took 0.014582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.090140 seconds.
   path: Assets/_Prefabs/PlayerRig.prefab
   artifactKey: Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/PlayerRig.prefab using Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d764a4701b07a91aae311f46332c913') in 0.235492 seconds 
-  Import took 0.241892 seconds .
+Start importing Assets/_Prefabs/PlayerRig.prefab using Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f573ccc452befab2cc7f17378c5085fd') in 0.190843 seconds 
+  Import took 0.196442 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 188.770637 seconds.
+  Time since last request: 10.069807 seconds.
   path: Assets/_Prefabs/PlayerRig.prefab
   artifactKey: Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/PlayerRig.prefab using Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2d5c01edc6413ee6c9af8bf5a0928f') in 0.015022 seconds 
-  Import took 0.023812 seconds .
+Start importing Assets/_Prefabs/PlayerRig.prefab using Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b86f150159169ec862047b635e9adf') in 0.010349 seconds 
+  Import took 0.016311 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.683267 seconds.
+  Time since last request: 9.680532 seconds.
   path: Assets/_Prefabs/PlayerRig.prefab
   artifactKey: Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Prefabs/PlayerRig.prefab using Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27634054d47754f58bb44fc96f700594') in 0.013618 seconds 
-  Import took 0.020393 seconds .
+Start importing Assets/_Prefabs/PlayerRig.prefab using Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24d348918615895608644e966eb6a0d') in 0.011346 seconds 
+  Import took 0.017793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.250751 seconds.
+  path: Assets/_Prefabs/PlayerRig.prefab
+  artifactKey: Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/PlayerRig.prefab using Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8118aaa8d1fb329b19d360e9df76bc6f') in 0.010717 seconds 
+  Import took 0.017023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.448295 seconds.
+  path: Assets/_Prefabs/Wristwatch.prefab
+  artifactKey: Guid(25e8e49fa02607d4793c5265a3ce0f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Wristwatch.prefab using Guid(25e8e49fa02607d4793c5265a3ce0f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ce2be50628db8325ca263a7929e55e') in 0.010518 seconds 
+  Import took 0.016456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154453 seconds.
+  path: Assets/_Prefabs/PlayerRig.prefab
+  artifactKey: Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/PlayerRig.prefab using Guid(720e01224fba53f41980d1fadb1c500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c466bdc30c28d1a05494cf587782db') in 0.010792 seconds 
+  Import took 0.018201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.952011 seconds.
+  path: Assets/_Scenes/Subway_Station.unity
+  artifactKey: Guid(604d807233fb0314792cfb979392657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Subway_Station.unity using Guid(604d807233fb0314792cfb979392657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10402f596d6e8609c992f98dce3cc51') in 0.008342 seconds 
+  Import took 0.014710 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.021585 seconds.
+Registered in 0.018502 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Mono: successfully reloaded assembly
-- Completed reload, in  2.392 seconds
+- Completed reload, in  1.486 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2393ms)
-		BeginReloadAssembly (238ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (99ms)
-		EndReloadAssembly (2059ms)
-			LoadAssemblies (151ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (499ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1091ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (933ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.0 MB.
-System memory in use after: 149.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3925.
-Total: 5.702900 ms (FindLiveObjects: 0.428500 ms CreateObjectMapping: 0.257000 ms MarkObjects: 4.971400 ms  DeleteObjects: 0.044100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012519 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.552 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1553ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1486ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1310ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1250ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
+			SetupTypeCache (410ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (441ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.1 MB.
-System memory in use after: 149.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3929.
-Total: 6.076800 ms (FindLiveObjects: 0.477000 ms CreateObjectMapping: 0.277900 ms MarkObjects: 5.275400 ms  DeleteObjects: 0.045000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011165 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1481ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1237ms)
-			LoadAssemblies (130ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (413ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (429ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (299ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.30 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.1 MB.
-System memory in use after: 149.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3932.
-Total: 5.547200 ms (FindLiveObjects: 0.499800 ms CreateObjectMapping: 0.338800 ms MarkObjects: 4.669100 ms  DeleteObjects: 0.037900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.076043 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.387 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1388ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1198ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (390ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (440ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (459ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (310ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (325ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.1 MB.
-System memory in use after: 149.3 MB.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.7 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3936.
-Total: 3.870000 ms (FindLiveObjects: 0.381800 ms CreateObjectMapping: 0.199300 ms MarkObjects: 3.259800 ms  DeleteObjects: 0.028100 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4151.
+Total: 4.219000 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.217000 ms MarkObjects: 3.589800 ms  DeleteObjects: 0.031300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -804,178 +320,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016424 seconds.
-Begin MonoManager ReloadAssembly
-The file 'MemoryStream' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
-Fatal Error! The file 'MemoryStream' is corrupted! Remove it and launch unity again!
-[Position out of bounds!]
-Crash!!!
-SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Mono;.;C:\Users\nekoi\Documents\Projects\XR Studio\Time Travelling Game;C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'nekoi'
-OS-Version: 10.0.0
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe:Unity.exe (00007FF66AE90000), size: 135282688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.20.50406
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFE712E0000), size: 2125824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFE6F370000), size: 774144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFE6EB10000), size: 3620864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
-C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFE6E7C0000), size: 1449984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFE6E930000), size: 1118208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFE710F0000), size: 1753088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFE6F0D0000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFE6F430000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFDEE870000), size: 10215424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.2.0.0
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFDBD980000), size: 43806720 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FFDF5260000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.0
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFE6EFB0000), size: 1122304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFE6EF10000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFE6F2C0000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFE6F4B0000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22000.1
-C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFE703B0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFE6FDB0000), size: 1183744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.258
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFE35250000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFDF50D0000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFE708C0000), size: 8036352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFE6F560000), size: 454656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FFE70070000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFE6FCF0000), size: 380928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\Normaliz.dll:Normaliz.dll (00007FFE6F4A0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFE5A770000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
-C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFE6F6D0000), size: 1679360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
-C:\WINDOWS\System32\combase.dll:combase.dll (00007FFE6F970000), size: 3637248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\tbb.dll:tbb.dll (00007FFDF4FE0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
-C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFE6F460000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFE70450000), size: 4632576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.194
-C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFE494E0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30133.0
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFE6F5D0000), size: 876544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFE6F100000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.194
-C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFE49450000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30133.0
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFE3A840000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.41
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFE38830000), size: 1052672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.41
-C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFDF4F30000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
-C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFDEDEF0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFE6D510000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFE69170000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFE6E1A0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFE5EC30000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFE6D1E0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FFDEF230000), size: 2535424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.1.0
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFDEDFE0000), size: 8978432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.0
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFE69160000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFE57B60000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFE49440000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.29.30133.0
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFDF5050000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.20342
-C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFE5ED40000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFE6C130000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFE6DBF0000), size: 262144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\OpenRL.dll:OpenRL.dll (000001D175D70000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
-C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000006B8C0000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
-C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000006B9A0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\embree.dll:embree.dll (00007FFDCF570000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
-C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFE6E490000), size: 311296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFE6DDE0000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001D1769C0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
-C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFE6E080000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFE6D9D0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
-C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFE6EE90000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFE6BE80000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
-C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\AudioDevProps2.dll:AudioDevProps2.dll (00007FFE37980000), size: 1282048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.6.10.0
-C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFE6FF60000), size: 958464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
-C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFE6C970000), size: 8790016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFE6C800000), size: 1466368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.41
-C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFE6E6F0000), size: 135168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFE6F180000), size: 716800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
-C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFE6A2A0000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
-C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFE67260000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
-C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFE6F870000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFE68E40000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
-C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFE69440000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.71
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFE6D540000), size: 946176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFE67910000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFE5F240000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFDEB0E0000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFE68120000), size: 2621440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFE6BFF0000), size: 995328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
-C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFE69460000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFE6C1A0000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\DriverStore\FileRepository\nvmii.inf_amd64_b32ce94116e244cf\nvldumdx.dll:nvldumdx.dll (00007FFE30AF0000), size: 1073152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14.9649
-C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFE67630000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFE613B0000), size: 1347584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
-C:\WINDOWS\SYSTEM32\devobj.dll:devobj.dll (00007FFE6E4E0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FFE6E0F0000), size: 249856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
-C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFE6E040000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFE70050000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFE6E020000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFE6D930000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\System32\DriverStore\FileRepository\nvmii.inf_amd64_b32ce94116e244cf\nvwgf2umx.dll:nvwgf2umx.dll (00007FFE25BC0000), size: 43163648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14.9649
-C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFE2AE30000), size: 2895872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.23.0.74
-C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFE66770000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFE5FBC0000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFE60C20000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFE5EEC0000), size: 1024000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFE48130000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
-C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFE6DED0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2110.6-0\MpOav.dll:MpOav.dll (00007FFE480B0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.2110.6
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFDF2B90000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
-C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFDE6F70000), size: 1474560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.1.0
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\radeonrays.dll:radeonrays.dll (00007FFDE7360000), size: 552960 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFDD38B0000), size: 7790592 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFE6FEE0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\ProgramData\Microsoft\VisualStudio\Setup\x64\Microsoft.VisualStudio.Setup.Configuration.Native.dll:Microsoft.VisualStudio.Setup.Configuration.Native.dll (00007FFDF2040000), size: 327680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.7.3111.17308
-C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFE6ABE0000), size: 1011712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22000.37
-C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22000.120_none_9d947278b86cc467\comctl32.dll:comctl32.dll (00007FFE51BE0000), size: 2772992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.22000.120
-C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFE67760000), size: 1761280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Windows\System32\MrmCoreR.dll:MrmCoreR.dll (00007FFE59DD0000), size: 1052672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.120
-C:\Windows\System32\iertutil.dll:iertutil.dll (00007FFE69650000), size: 2826240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.22000.282
-C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FFE67390000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
-C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFE38100000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.51
-C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll:windows.staterepositoryclient.dll (00007FFE605D0000), size: 253952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
-C:\Windows\System32\bcp47mrm.dll:bcp47mrm.dll (00007FFE59A50000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
-C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FFE59BA0000), size: 1605632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.22000.318_none_ce876b9e12f802ea\gdiplus.dll:gdiplus.dll (00007FFE50D20000), size: 1781760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.318
-C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFE70290000), size: 1171456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.282
-C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFE380D0000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Windows\System32\VAULTCLI.dll:VAULTCLI.dll (00007FFE48480000), size: 364544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFE46DE0000), size: 1261568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.65
-C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FFE67080000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\msvcp110_win.dll:msvcp110_win.dll (00007FFE66FE0000), size: 598016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\Windows\System32\Windows.System.Launcher.dll:Windows.System.Launcher.dll (00007FFE60610000), size: 1290240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFE5BA40000), size: 2232320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22000.1
-
-========== OUTPUTTING STACK TRACE ==================
-
-0x00007FFE6EB5466C (KERNELBASE) RaiseException
-0x00007FF66D61B1FD (Unity) EditorMonoConsole::LogToConsoleImplementation
-0x00007FF66D61C17A (Unity) EditorMonoConsole::LogToConsoleImplementation
-0x00007FF66F2465BE (Unity) DebugStringToFilePostprocessedStacktrace
-0x00007FF66F245B6F (Unity) DebugStringToFile
-0x00007FF66C3DD12E (Unity) CachedReader::OutOfBoundsError
-0x00007FF66C3E2204 (Unity) CachedReader::UpdateReadCache
-0x00007FF66C53F5E6 (Unity) ExecuteSerializationCommands<SafeBinaryRead>
-0x00007FF66C54652E (Unity) TransferScriptingObject<StreamedBinaryRead,0>
-0x00007FF66C5619DC (Unity) SerializableManagedRefTransfer::TransferBinaryInstanceOnly
-0x00007FF66C541848 (Unity) SerializableManagedRefTransfer::RestoreBackupImpl<SerializableManagedRefBackupGenerator>
-0x00007FF66C5416EB (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
-0x00007FF66CAD8EF7 (Unity) SerializableManagedRefsUtilities::RestoreBackups
-0x00007FF66CA14744 (Unity) MonoManager::EndReloadAssembly
-0x00007FF66CA1B707 (Unity) MonoManager::ReloadAssembly
-0x00007FF66DE0F361 (Unity) LoadDomainAndUserAssemblies
-0x00007FF66DE0F80E (Unity) LoadUserAssemblies
-0x00007FF66E2862B8 (Unity) <lambda_d5cd3abeeb3ed75489242b6b28c1fa53>::operator()
-0x00007FF66E32A262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007FF66E32C3C0 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007FF66E32FB4E (Unity) asio::io_service::run
-0x00007FF66E2B29EB (Unity) RunAssetImportWorkerClientV2
-0x00007FF66E2B2A40 (Unity) RunAssetImporterV2
-0x00007FF66D776616 (Unity) Application::InitializeProject
-0x00007FF66E121B22 (Unity) WinMain
-0x00007FF66FF792B6 (Unity) __scrt_common_main_seh
-0x00007FFE6F3854E0 (KERNEL32) BaseThreadInitThunk
-0x00007FFE712E485B (ntdll) RtlUserThreadStart
-
-========== END OF STACKTRACE ===========
-
-A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
- * C:/Users/nekoi/AppData/Local/Temp/Unity/Editor/Crashes
