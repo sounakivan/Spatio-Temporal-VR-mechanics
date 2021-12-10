@@ -2,23 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class GazeRaycast : MonoBehaviour
 {
+    [SerializeField] GameObject player;
     [SerializeField] Camera playerCamera;
-    [SerializeField] Image reticleImage;
-    [SerializeField] Image gazeTimerImage;
+    [SerializeField] GameObject teleportReticle;
+    private GameObject teleportReticleInstance;
+    private Transform teleportHere;
 
-    [SerializeField] float timerDuration = 3f;
-    private bool gazeStatus;
+    //[SerializeField] Image reticleImage;
+    [SerializeField] Image gazeTimerImage;
+    [SerializeField] ActionBasedController controller;
+
+    [SerializeField] float timerDuration = 2.5f;
+    private bool _teleportActive;
     private bool _isRadialFilled;
     private float _timer;
 
     // Start is called before the first frame update
     void Start()
     {
-        //reticleImage.color = Color.clear;
+        teleportReticleInstance = Instantiate(teleportReticle);
+        controller.selectAction.action.performed += teleportTimerActivated;
         ResetProgress();
+    }
+
+    private void teleportTimerActivated(InputAction.CallbackContext obj)
+    {
+        _teleportActive = true;
     }
 
     // Update is called once per frame
@@ -28,10 +42,9 @@ public class GazeRaycast : MonoBehaviour
 
         if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit))
         {
-            if (hit.transform.CompareTag("Teleporter"))
+            if (hit.transform.CompareTag("Teleportable"))
             {
-                gazeStatus = true;
-                reticleImage.color = Color.green;
+                UpdateTeleportReticle(hit);
             }
             else
             {
@@ -40,17 +53,28 @@ public class GazeRaycast : MonoBehaviour
             Teleport(hit);
         }
 
-        if (gazeStatus)
+        if (_teleportActive)
         {
             LoadGazeTimer();
         }
     }
 
+    void UpdateTeleportReticle(RaycastHit hit)
+    {
+        //teleportReticleInstance.SetActive(true);
+        teleportReticleInstance.transform.position = hit.point;
+        teleportReticleInstance.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
+
+        //hover on teleportable area
+        //reticleImage.color = Color.green;
+        
+    }
+
     void Teleport(RaycastHit hit)
     {
-        if (gazeTimerImage.fillAmount == 1 && hit.transform.CompareTag("Teleporter"))
+        if (gazeTimerImage.fillAmount == 1 && hit.transform.CompareTag("Teleportable"))
         {
-            hit.transform.gameObject.GetComponent<Teleport>().teleportPlayer();
+            player.transform.position = hit.point;
             //Debug.Log("teleporting");
         }
     }
@@ -58,9 +82,9 @@ public class GazeRaycast : MonoBehaviour
     void onGazeExit()
     {
         _isRadialFilled = false;
-        gazeStatus = false;
+        _teleportActive = false;
         ResetProgress();
-        reticleImage.color = Color.white;
+        //reticleImage.color = Color.white;
     }
 
     public void StartProgress()
