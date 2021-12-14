@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 public class WatchUI : MonoBehaviour
 {
+    public ChangeGameStates gameStateControl;
+    
     [SerializeField] private Transform secondHandTransform;
     [SerializeField] private Transform minuteHandTransform;
     [SerializeField] private Text timeText;
 
+    private float counter = 0;
     public float timeVariable = 1f;
-    private float startTime;
     public float trainArrivalTime = 180f;
     public float timeUntilArrival;
 
@@ -18,42 +20,48 @@ public class WatchUI : MonoBehaviour
 
     void Start()
     {
-        startTime = Time.time;
+
     }
 
     // Update is called once per frame
     private void Update()
     {
-        float t = Time.time - startTime;
-        float seconds = t % 60;
-        float rateOfSeconds = seconds * timeVariable;
-        float secondsDegree = -(rateOfSeconds / 60f) * 360f;
-
-        secondHandTransform.localRotation = Quaternion.Euler(new Vector3(0, 0, secondsDegree));
-        minuteHandTransform.localRotation = Quaternion.Euler(new Vector3(0, 0, (secondsDegree) / 60f));
-
-        float minutes = rateOfSeconds / 60;
-        string minuteString = ((int) minutes).ToString("f0");
-        string secondString = (rateOfSeconds % 60).ToString("f0");
-
-        timeText.text = minuteString + ":" + secondString;
-
-        //time speeds up and slows down accordingly
-        if (!_inTimeBubble)
+        //if game has not started
+        if (!gameStateControl.gameStarted)
         {
-            timeVariable += 0.001f;
+            timeText.text = "00:00";
         }
-        else if (_inTimeBubble && timeVariable > 1)
+        
+        //if game has started
+        if (gameStateControl.gameStarted)
         {
-            timeVariable -= 0.001f;
-        }
-        else
-        {
-            timeVariable = 1f;
+            counter += Time.deltaTime;
+            float rateOfSeconds = counter * timeVariable;
+            Debug.Log(rateOfSeconds);
+            float secondsDegree = -(rateOfSeconds / 60f) * 360f;
+
+            secondHandTransform.localRotation = Quaternion.Euler(new Vector3(0, 0, secondsDegree));
+            minuteHandTransform.localRotation = Quaternion.Euler(new Vector3(0, 0, (secondsDegree) / 60f));
+
+            float minutes = rateOfSeconds / 60;
+            string minuteString = ((int)minutes).ToString("f0");
+            string secondString = (rateOfSeconds % 60).ToString("f0");
+
+            timeText.text = minuteString + ":" + secondString;
+
+            //time speeds up and slows down accordingly
+            if (!_inTimeBubble && timeVariable < 2.6)
+            {
+                timeVariable += 0.001f / 3;
+            }
+            else if (_inTimeBubble && timeVariable > 1)
+            {
+                timeVariable -= 0.001f;
+            }
+
+            //train approach timer
+            timeUntilArrival = trainArrivalTime - rateOfSeconds;
         }
 
-        //Debug.Log(rateOfSeconds);
-
-        timeUntilArrival = trainArrivalTime - rateOfSeconds;
     }
 }

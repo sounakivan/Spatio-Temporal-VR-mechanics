@@ -15,12 +15,11 @@ public class GazeRaycast : MonoBehaviour
 
     [SerializeField] Image reticleImage;
     [SerializeField] Image gazeTimerImage;
-    [SerializeField] ActionBasedController controller;
 
     [SerializeField] float timerDuration = 2.5f;
     public WatchUI myWatch;
 
-    private bool _teleportActive;
+    public bool _teleportActive;
     private bool _isRadialFilled;
     private float _timer;
 
@@ -28,18 +27,14 @@ public class GazeRaycast : MonoBehaviour
     void Start()
     {
         teleportReticleInstance = Instantiate(teleportReticle);
-        controller.selectAction.action.performed += teleportTimerActivated;
         ResetProgress();
     }
 
-    private void teleportTimerActivated(InputAction.CallbackContext obj)
-    {
-        _teleportActive = true;
-    }
 
     // Update is called once per frame
     void Update()
     {
+        
         RaycastHit hit = new RaycastHit();
 
         if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit))
@@ -75,7 +70,7 @@ public class GazeRaycast : MonoBehaviour
         teleportReticleInstance.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
 
         //hover on teleportable area
-        reticleImage.color = Color.green;
+        reticleImage.color = Color.red;
         
     }
 
