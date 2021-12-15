@@ -12,7 +12,7 @@ public class WatchUI : MonoBehaviour
     [SerializeField] private Text timeText;
 
     private float counter = 0;
-    public float timeVariable = 1f;
+    public float timeVariable = 0f;
     public float trainArrivalTime = 180f;
     public float timeUntilArrival;
 
@@ -36,7 +36,7 @@ public class WatchUI : MonoBehaviour
         if (gameStateControl.gameStarted)
         {
             counter += Time.deltaTime;
-            float rateOfSeconds = counter * timeVariable;
+            float rateOfSeconds = counter + timeVariable;
             Debug.Log(rateOfSeconds);
             float secondsDegree = -(rateOfSeconds / 60f) * 360f;
 
@@ -54,7 +54,7 @@ public class WatchUI : MonoBehaviour
             {
                 timeVariable += 0.001f / 3;
             }
-            else if (_inTimeBubble && timeVariable > 1)
+            else if (_inTimeBubble && timeVariable > 0)
             {
                 timeVariable -= 0.001f;
             }

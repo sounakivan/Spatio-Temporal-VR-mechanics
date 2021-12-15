@@ -9,9 +9,12 @@ public class GazeRaycast : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] Camera playerCamera;
+    [SerializeField] ActionBasedController actionBasedController;
     [SerializeField] GameObject teleportReticle;
     private GameObject teleportReticleInstance;
     private Transform teleportHere;
+
+    public ChangeGameStates gameControl;
 
     [SerializeField] Image reticleImage;
     [SerializeField] Image gazeTimerImage;
@@ -28,6 +31,16 @@ public class GazeRaycast : MonoBehaviour
     {
         teleportReticleInstance = Instantiate(teleportReticle);
         ResetProgress();
+
+        actionBasedController.selectAction.action.performed += teleportActivated;
+    }
+
+    private void teleportActivated(InputAction.CallbackContext obj)
+    {
+        if (gameControl.gameStarted)
+        {
+            _teleportActive = true;
+        }
     }
 
 

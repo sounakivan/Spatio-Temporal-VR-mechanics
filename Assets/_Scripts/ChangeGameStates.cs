@@ -65,11 +65,6 @@ public class ChangeGameStates : MonoBehaviour
             gameStarted = true;
             menu.SetActive(false);
         }
-
-        if (gameStarted)
-        {
-            playerGaze._teleportActive = true;
-        }
     }
 
     // Update is called once per frame
