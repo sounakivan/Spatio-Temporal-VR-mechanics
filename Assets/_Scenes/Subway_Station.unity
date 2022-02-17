@@ -2038,7 +2038,7 @@ MonoBehaviour:
   aud: {fileID: 382684231}
   selectClip: {fileID: 8300000, guid: f33bf5ea9b57264439ee5f811c3b6d91, type: 3}
   startClip: {fileID: 8300000, guid: 42dcd4999d4a40647be8b0c9bfaa91aa, type: 3}
-  gameStarted: 0
+  gameStarted: 1
   gameWin: 0
   menuInfoTexts:
   - The train is approaching soon... can you make it on time?

@@ -12,7 +12,7 @@ public class ChangeGameStates : MonoBehaviour
     [SerializeField] private Text continueText;
 
     [SerializeField] ActionBasedController controller;
-    public GazeRaycast playerGaze;
+    //public GazeRaycast playerGaze;
 
     public AudioSource aud;
     public AudioClip selectClip;
@@ -25,11 +25,9 @@ public class ChangeGameStates : MonoBehaviour
 
     public string[] menuInfoTexts = new string[]
     {
-        "The train is approaching soon... can you make it on time?",
-        "Being in a hurry can be stressful. Time seems to keep ticking faster and faster!",
-        "Step inside the 'bubble' zones to re-orient your mental tick to normal speed, before returning to the rush hour scramble.",
-        "Use the gaze pointer to locate your next position, then press the grip button to teleport to it.",
-        "Ready to catch a train? Ok then, godspeed!"
+        "It's time to catch a train...",
+        "Being in a constant rush can make time seem to pass faster. Step inside a 'bubble' to re-orient your mental tick.",
+        "Press the grip button to teleport to your gaze location indicated by a ring. The train arrives in 3 minutes. Ready?",
     };
     
     // Start is called before the first frame update
@@ -52,14 +50,12 @@ public class ChangeGameStates : MonoBehaviour
             index += 1;
             menuInfo.text = menuInfoTexts[index];
         }
-        
-        if (!gameStarted && index == menuInfoTexts.Length - 1)
+        else if (!gameStarted && index == menuInfoTexts.Length - 1)
         {
             aud.PlayOneShot(selectClip);
-            continueText.text = "Press grip button to START";
+            continueText.text = "Press grip button twice to START";
         }
-
-        if (!gameStarted && index == menuInfoTexts.Length)
+        else if (!gameStarted && index == menuInfoTexts.Length)
         {
             aud.PlayOneShot(startClip);
             gameStarted = true;
